@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto flex justify-between mt-5">
     <div class="box w-3/4">
-      <div class="border-b-2 border-green-500">
+      <div class="">
         <button
           class="
             text-gray-500

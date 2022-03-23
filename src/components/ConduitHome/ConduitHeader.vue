@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex justify-between mx-auto">
+  <div class="container flex justify-between mx-auto mt-3">
     <div class="headerLogo">
       <p class="text-green-600 font-bold text-xl">Conduit Copy</p>
     </div>
@@ -12,7 +12,7 @@
           <router-link to="/ConduitNewPost">NewPost</router-link>
         </li>
         <li class="mx-3 text-slate-400 hover:text-black">
-          <a href="#">Setting</a>
+          <router-link to="/ConduitSetting">Setting</router-link>
         </li>
         <li class="mx-3 text-slate-400 hover:text-black">
           <a href="#">Sign in</a>

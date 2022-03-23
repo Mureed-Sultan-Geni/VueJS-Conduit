@@ -2,6 +2,7 @@ import { createWebHashHistory, createRouter } from "vue-router";
 
 import ConduitHome from "../Pages/ConduitHome.vue";
 import ConduitNewPost from "../Pages/ConduitNewPost.vue";
+import ConduitSetting from "../Pages/ConduitSetting.vue";
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
     name: "ConduitNewPost",
     path: "/ConduitNewPost",
     component: ConduitNewPost,
+  },
+  {
+    name: "ConduitSetting",
+    path: "/ConduitSetting",
+    component: ConduitSetting,
   },
 ];
 const router = createRouter({
